@@ -1,0 +1,42 @@
+{
+  "principals": [
+    {
+      "id": 1,
+      "username": "principal",
+      "password": "password"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "username": "teacher1",
+      "password": "password",
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "username": "teacher2",
+      "password": "password",
+      "name": "Jane Smith"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Student One",
+      "teacherId": 1
+    },
+    {
+      "id": 2,
+      "name": "Student Two",
+      "teacherId": 1
+    },
+    {
+      "id": 3,
+      "name": "Student Three",
+      "teacherId": 2
+    }
+  ],
+  "attendance": [],
+  "tests": []
+}
